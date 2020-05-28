@@ -1,0 +1,481 @@
+/* Responsive CSS */
+
+
+
+/*  TABLE OF CONTENTS
+    ---------------------------
+    1. Max Width 767px
+    2. Max Width 767px & Max Height 500px
+    3. Max Width 667px & Max Height 700px
+    4. Min Width 768px & Max Width 991px
+    5. Min Width 992px
+    6. Min Width 890px & Max Height 678px
+    7. Max Width 991px & Min Height 1024px
+    8. Min Width 769px & Max Width 991px
+    9. Min Width 1600px
+    10. Min Width 1200px & Min Height 1024px
+    11. Min Width 1200px & Min Height 1200px
+    12. Min Width 1200px & Min Height 1300px
+    13. Min Width 1200px & Min Height 1400px
+    14. Min Width 1200px & Min Height 1600px
+    15. Min Width 1200px
+    16. Max Width 991px
+*/
+
+
+
+/* -------------------------------------------
+
+1. Max Width 767px
+
+------------------------------------------- */
+
+@media all and (max-width: 767px) {
+  .lrs-angle .lrs-angle-div {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30%;
+  }
+  .lrs-angle {
+    margin-top: -80px;
+  }
+  .btn-modern {
+    font-size: 12px;
+  }
+  #skills .right, #skills .left {
+    padding: 0;
+  }
+  .dismiss-modal {
+    right: 5px;
+    top: 20px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+  }
+  .lrs-first-section .right {
+    top: 0;
+    right: -20vh;
+  }
+  .lrs-first-section .left {
+    padding-left: 5%;
+  }
+  button.navbar-toggle {
+    border: none;
+    background: none;
+    padding-top: 15px;
+  }
+  .lrs-header,
+  .lrs-header .navbar .navbar-header {
+    height: 60px;
+  }
+  .lrs-header .navbar .navbar-header .navbar-brand .brand {
+    line-height: 60px;
+  }
+  .nr-heading-title {
+    font-size: 12px;
+  }
+  .info {
+    margin-top: 10%;
+    width: 80vw;
+  }
+  .fa-3x {
+    font-size: 2em;
+  }
+  #education .timeline::before,
+  #experience .timeline::before {
+    left: 16px;
+  }
+  #education .timeline-content span,
+  #experience .timeline-content span {
+    font-size: 12px;
+  }
+  #education .timeline-block-right,
+  #experience .timeline-block-right {
+    margin-left: 16px;
+  }
+  #work .lrs-list-protfolio .fil-cat {
+    margin: 0 3px;
+    font-size: 12px;
+  }
+  #work .lrs-projects,
+  .lrs-projects {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+  }
+  .lrs-project-content {
+    display: none;
+  }
+  .lrs-modal-project .modal-content .btn-modern {
+    top: 5px;
+    left: 70%;
+    font-size: 12px;
+  }
+  blockquote {
+    padding: 10px 0;
+  }
+  blockquote::before {
+    left: -10px !important;
+  }
+  #reference #quote-carousel .carousel-indicators {
+    height: 75px;
+  }
+  #reference #quote-carousel .carousel-indicators .active {
+    width: 75px;
+    height: 75px;
+  }
+  #reference #quote-carousel .carousel-indicators li {
+    width: 35px;
+    height: 35px;
+  }
+  #pricing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #contact .social li i {
+    font-size: 12px;
+  }
+  #contact .social li {
+    margin: 0;
+  }
+  .click_email {
+    display: none;
+  }
+  .navbar-fixed-top .navbar-collapse {
+    max-height: 100vh;
+    box-shadow: 0 2px 15px -7px #000;
+  }
+  .nav {
+    width: 100%;
+  }
+  .lrs-header .navbar .navbar-collapse .nav .lrs-link-nav,
+  .lrs-header.stiky .navbar .navbar-collapse .nav a {
+    line-height: 35px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #contact {
+    margin-top: 10%;
+  }
+  .lrs-post-page-content,
+  .lrs-post-page-post_comments {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .lrs-sidebar-post {
+    display: none;
+  }
+  #modal_contact .modal-dialog {
+    width: 90vw;
+  }
+  #education .container:before {
+    left: 8px;
+    width: 2px;
+  }
+  #education .timeline-block {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #education .timeline-block-right {
+    float: none;
+  }
+  #education .timeline-block-left {
+    float: none;
+    direction: ltr;
+  }
+  #education .container:before {
+    left: 8px;
+    width: 2px;
+  }
+  #education .timeline-block {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #education .timeline-block-right {
+    float: none;
+  }
+  #education .timeline-block-left {
+    float: none;
+    direction: ltr;
+  }
+  #experience .content .pricing .plan ul {
+    text-align: left;
+    padding-left: 10%;
+  }
+  #experience .content .work ul li {
+    margin: 0 5px;
+  }
+  #experience .container:before {
+    left: 8px;
+    width: 2px;
+  }
+  #experience .timeline-block {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #experience .timeline-block-right {
+    float: none;
+  }
+  #experience .timeline-block-left {
+    float: none;
+    direction: ltr;
+  }
+  #reference .clients {
+    display: block;
+    min-height: 200px;
+    margin: 0 0 25px 0;
+  }
+  #reference .clients .col-sm-2 {
+    padding: 5px;
+  }
+  #reference .clients .col-sm-2 img {
+    max-width: 15vw;
+    margin: 0 auto;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+2. Max Width 767px & Max Height 500px
+
+------------------------------------------- */
+
+@media all and (max-width: 767px) and (max-height: 500px) {
+  .lrs-first-section .right {
+    top: -50vh;
+    right: -20vh;
+    width: 50vw;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+3. Max Width 667px & Max Height 700px
+
+------------------------------------------- */
+
+@media all and (max-width: 667px) and (min-height: 700px) {
+  .lrs-first-section .left {
+    left: 10vw;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+4. Min Width 768px & Max Width 991px
+
+------------------------------------------- */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .lrs-header .navbar .navbar-collapse .nav .lrs-link-nav {
+    margin: 0 5px;
+  }
+  .lrs-first-section {
+    height: 60vh;
+  }
+  .lrs-first-section .left {
+    left: 7vh;
+  }
+  #education .timeline::before,
+  #experience .timeline::before {
+    left: 16px;
+  }
+  #education .timeline-block-right,
+  #experience .timeline-block-right {
+    margin-left: 16px;
+  }
+  .lrs-modal-project .modal-content .btn-modern {
+    left: 80%;
+  }
+  #modal_contact .modal-dialog {
+    width: 75vw;
+  }
+  .lrs-content-post {
+    margin-top: 12%;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+5. Min Width 992px
+
+------------------------------------------- */
+@media all and (min-width: 992px) {
+  .lrs-content-post {
+    margin-top: 7%;
+  }
+  .lrs-plan ul {
+    padding-left: 10%;
+  }
+
+}
+
+
+/* -------------------------------------------
+
+6. Min Width 890px & Max Height 678px
+
+------------------------------------------- */
+@media all and (min-width: 890px) and (max-height: 678px) {
+  .lrs-first-section {
+    height: 100vh;
+  }
+  #education .timeline::before,
+  #experience .timeline::before {
+    left: 50%;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+7. Max Width 991px & Min Height 1024px
+
+------------------------------------------- */
+@media all and (max-width: 991px) and (min-height: 1024px) {
+  .lrs-first-section {
+    height: 50vh;
+  }
+  #education .timeline::before,
+  #experience .timeline::before {
+    left: 50%;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+8. Min Width 769px & Max Width 991px
+
+------------------------------------------- */
+@media all and (min-width: 769px) and (max-width: 991px) {
+  #education .timeline::before,
+  #experience .timeline::before {
+    left: 50%;
+  }
+  h1, .h1 {
+    font-size: 45px;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+9. Min Width 1600px
+
+------------------------------------------- */
+@media all and (min-width: 1600px) {
+  .lrs-first-section {
+    height: 80vh;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+10. Min Width 1200px & Min Height 1024px
+
+------------------------------------------- */
+@media all and (min-width: 1200px) and (min-height: 1024px) {
+  .lrs-first-section {
+    height: 75vh;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+11. Min Width 1200px & Min Height 1200px
+
+------------------------------------------- */
+@media all and (min-width: 1200px) and (min-height: 1200px) {
+  .lrs-first-section {
+    height: 65vh;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+12. Min Width 1200px & Min Height 1300px
+
+------------------------------------------- */
+@media all and (min-width: 1200px) and (min-height: 1300px) {
+  .lrs-first-section {
+    height: 60vh;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+13. Min Width 1200px & Min Height 1400px
+
+------------------------------------------- */
+@media all and (min-width: 1200px) and (min-height: 1400px) {
+  .lrs-first-section {
+    height: 55vh;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+14. Min Width 1200px & Min Height 1600px
+
+------------------------------------------- */
+@media all and (min-width: 1200px) and (min-height: 1600px) {
+  .lrs-first-section {
+    height: 50vh;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+15. Min Width 1200px
+
+------------------------------------------- */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+
+
+/* -------------------------------------------
+
+16. Max Width 991px
+
+------------------------------------------- */
+@media all and (max-width: 991px) {
+
+  .lrs-plan ul {
+    padding-left: 10%;
+  }
+  .lrs-post-page .popular_posts .post_info {
+    display: inline;
+  }
+}
